@@ -1,0 +1,14 @@
+version: "3.6"
+
+services:
+  aspnetcorespa:
+    image: ${DOCKER_REGISTRY-}ADPortsTask
+    build:
+      context: .
+      dockerfile: ADPortsTask/ClientApp/Dockerfile
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
