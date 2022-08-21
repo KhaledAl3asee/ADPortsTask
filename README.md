@@ -3,7 +3,7 @@ ADPorts Assessment
 
 1.	Frontend (using Angular 13.3.2) only login is working using jwt token 
 2.	Backend service (using .NET core 5)full crud (authenticated and authorized)  using repository pattern ,error handling , dtos
-3.	Database (MSSQL 2014+)
+3.	Database (MSSQL 2017)
 4.	JWT authentication
 5.	API gateway
 6. docker files provided.
